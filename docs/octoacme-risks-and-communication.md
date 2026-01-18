@@ -23,6 +23,8 @@ Maintain a simple table with:
 - Identify stakeholder groups and communication needs (e.g., engineering, sales, support)
 - Provide regular updates (weekly or milestone-based)
 - Use a single source of truth (project README or release doc) for status
+- Business Analyst ensures business stakeholders understand technical progress
+- Technical Writer maintains clear, accessible communication artifacts
 
 ## Communication Templates
 Weekly Status Template:
@@ -38,5 +40,14 @@ Incident Communication
 - Post-incident blameless retrospective scheduled
 
 ## Escalation Paths
-- Team-level -> PM -> Product Lead -> Sponsor
+- Team-level -> Scrum Master/PM -> Product Lead -> Sponsor
 - For security incidents, follow the security incident runbook and notify Security on-call
+- DevOps Engineer escalates infrastructure and deployment issues
+- Business Analyst escalates requirements clarification and stakeholder concerns
+
+## Role Responsibilities in Risk Management
+- **Project Manager**: Owns risk register, coordinates mitigation strategies
+- **Scrum Master**: Identifies and escalates team-level impediments
+- **DevOps Engineer**: Monitors and mitigates infrastructure and deployment risks
+- **Business Analyst**: Identifies business and requirements risks
+- **All Team Members**: Report risks and contribute to mitigation plans
